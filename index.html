@@ -11,23 +11,29 @@
 </head>
 <body>
 
-    <div id="c1">
+    <div id="circle_one">
         <img src="Imgs/Ellipse 1.png" alt="bg">
     </div>
-    <div id="c2">
+    <div id="circle_two">
         <img src="Imgs/Ellipse 2.png" alt="bg">
     </div>
 
-    <div id="navBar">
+    <div id="navbar">
         <div id="logo">
             <img src="Imgs/Logo.png" alt="Logo">
         </div>
-        <div id="links">
+        <div id="navbar__links">
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Portfolio</a>
         </div>
-        <div id="cta">Book A Call</div>
+        <div id="nav__btn">
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thestanedgar/15mins'});return false;">Book A Call</a>
+            <!-- Calendly link widget end -->
+            </div>
     </div>
 
     <div id="spots">
@@ -36,29 +42,90 @@
     </div>
 
     <div id="hero">
-        <div id="txt">
+        <div id="hero__txt">
             <h1>Need a website that turns leads <br> into <span>cash</span>?</h1>
             <p>we’ll design, hand-code & test your custom <br> website to drive high conversions & profit.</p>
         </div>
         <div id="CTA">
-            Book A Call
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thestanedgar/15mins'});return false;">Book A Call</a>
+                <!-- Calendly link widget end -->
         </div>
     </div>
+    <div class="slideshow">
+        <div class="slideshow__inner">
+          <div class="slides">
+            <div class="slide"><img src="Imgs/1Web.png" alt="Slide 1"></div>
+            <div class="slide"><img src="Imgs/2Web.png" alt="Slide "></div>
+            <div class="slide"><img src="Imgs/3Web.png" alt="Slide 3"></div>
+            <div class="slide"><img src="Imgs/4Web.png" alt="Slide 4"></div>
 
-    <div id="slideShow">
-        <div id="slide">
-            <img src="Imgs/1Web.png" alt="">
-            </div>
-        <div id="slide">
-            <img src="Imgs/2Web.png" alt="">
-            </div>
-        <div id="slide">
-            <img src="Imgs/3Web.png" alt="">
-            </div>
-        <div id="slide">
-            <img src="Imgs/4Web.png" alt="">
-            </div>
+            <!-- 5 slides -->
+          </div>
+          <div class="slides">
+            <div class="slide"><img src="Imgs/1Web.png" alt="Slide 1"></div>
+            <div class="slide"><img src="Imgs/2Web.png" alt="Slide 2"></div>
+            <div class="slide"><img src="Imgs/3Web.png" alt="Slide 3"></div>
+            <div class="slide"><img src="Imgs/4Web.png" alt="Slide 4"></div>
+
+            <!-- Duplicate 5 slides -->
+          </div>
         </div>
+      </div>
+    
+    <div id="main">
+
+        <h1>How it all <span>Works</span></h1>
+
+        <div id="cards">
+
+            <div id="card" class="design">
+                <div id="txt">
+                    <h2>Designing</h2>
+                    <p>Prioritizing UX  for maximum conversions <br> while looking pretty.</p>
+                </div>
+                <img src="Imgs/Des.png" alt="Designing Img">
+
+            </div>
+
+            <div id="card" style="width: 525px;" class="develop">
+                <div id="txt">
+                    <h2>Developing</h2>
+                <p>We ditch Chat-GPT for production quality <br> hand-code websites</p>
+                </div>
+                <img src="Imgs/Dev.png" alt="Developing Img">
+
+            </div>
+
+            <div id="card" style="width: 525px;" class="collab">
+                <div id="txt">
+                    <h2>Collaboration</h2>
+                <p>We keep in touch to craft a website that suits <br> your tastes and needs. With progress updates.</p>
+                </div>
+                <img src="Imgs/Communcation.svg" alt="Collaboration">
+
+            </div>
+
+            <div id="card" class="copy">
+                <div id="txt">
+                    <h2>Designing</h2>
+                <p>Prioritizing UX  for maximum conversions <br> while looking pretty.</p>
+                </div>
+                <img src="Imgs/Copy.svg" alt="Copywriting">
+
+            </div>
+
+
+        </div>
+
+        <p>Still unsure? <a href="https://calendly.com/thestanedgar/15mins" target="_blank" class="foot">book a discover call</a></p>
+
+    </div>
+    
+</body>
+</html>
             
     </div>
     
